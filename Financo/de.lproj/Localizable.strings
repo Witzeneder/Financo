@@ -1,0 +1,84 @@
+/* 
+  Localizable.strings
+  Financer
+
+  Created by Valentin Witzeneder on 23.04.19.
+  Copyright © 2019 Valentin Witzeneder. All rights reserved.
+*/
+
+"info.startGreetings" = "Willkommen bei Financer!\nWischen Sie nach links um zu starten 🙂";
+"info.settingsText" = "Willkommen zur ersten Version von Financo!\nVerwenden Sie $, £ oder € ? 😉\nSie können diese Einstellung umstellen in\niPhone Einstellungen > Financer.";
+"viewTitle.Manage" = "Verwalten";
+"viewTitle.Recurrent" = "Wiederkehrend";
+"viewTitle.Charts" = "Charts";
+"viewTitle.Situation" = "Situation";
+"viewTitle.Goals" = "Ziele";
+"month.1" = "Jänner";
+"month.2" = "Februar";
+"month.3" = "März";
+"month.4" = "April";
+"month.5" = "Mai";
+"month.6" = "Juni";
+"month.7" = "Juli";
+"month.8" = "August";
+"month.9" = "September";
+"month.10" = "Oktober";
+"month.11" = "November";
+"month.12" = "Dezember";
+"outcomes.name" = "Ausgaben";
+"incomes.name" = "Einnahmen";
+"outcome.name" = "Ausgabe";
+"income.name" = "Einnahme";
+"balances.name" = "Bilanz";
+"buttons.delete" = "Löschen";
+"buttons.select" = "Auswählen";
+"buttons.warning" = "Warnung";
+"buttons.cancel" = "Abbrechen";
+"buttons.yes" = "Ja";
+"newEntry.oneTime" = "Einmalig";
+"newEntry.monthly" = "Monatlich";
+"newEntry.custom" = "Eigen";
+"newEntry.failedSaving" = "Speichern fehlgeschlagen, versuchen Sie erneut!";
+"newEntry.failedEntry" = "Ungültige Tages- oder Monatsanzahl angegeben!";
+"newEntry.mistrial" = "Fehlversuch";
+"newEntry.checkFail" = "Vergewissern Sie sich, dass alle Felder korrekt ausgefüllt sind!";
+"newEntry.labelSelect" = "Auswählen";
+"newEntry.newLabel" = "Neue Kategorie";
+"newEntry.enterNewLabel" = "Neue Kategorie eingeben";
+"newEntry.alphapetical" = "Nur A-Z (a-z)";
+"newEntry.labelPlaceholder" = "Kategorie ...";
+"entry.amount" = "Betrag:";
+"label.everything" = "ALLES";
+"alert.cancel" = "Abbrechen";
+"picker.days" = "Tage";
+"picker.months" = "Monate";
+"info.NumberOfEntriesMonth" = "Einträge im aktuellen Monat:";
+"info.HighestLabel" = "Größte Kategorie im aktuellen Monat:";
+"chartPicker.absolute" = "Absolut";
+"chartPicker.percentage" = "Prozentual";
+"recurrent.daily" = "Täglich";
+"recurrent.monthly" = "Monatlich";
+"recurrent.every" = "Alle ";
+"recurrent.day" = " Tag";
+"recurrent.month" = " Monat";
+"recurrent.plural" = "e";
+"recurrent.and" = " und ";
+"recurrent.deleteWarning" = "Sind sie sicher, dass Sie den Auftrag und alle seine Aufträge löschen wollen?";
+"recurrent.stopRecurring" = "Auftrag stoppen";
+"goal.invalidAmount" = "Geben Sie einen gültigen Betrag in das obere Feld ein!";
+"goal.invalidDate" = "Das Enddatum des Plans muss nach dem Startdatum sein!";
+"goal.startGoal" = "Plan starten";
+"goal.income" = "Einnahme Plan";
+"goal.outcome" = "Ausgabe Plan";
+"goal.EveryLabel" = "Alle Einträge";
+"goal.goalLine" = "Ziel";
+"goal.actualLine" = "Aktuell";
+"goal.to" = " bis ";
+"goal.days" = " Tage]";
+"start.letsStart" = "Lass uns beginnen deine Bilanzen zu verfolgen!";
+"start.Dino" = "\nTippe auf den Wal, um zu starten 😉";
+"start.Welcome" = "Wilkommen auf Financer!\nBitte nach links wischen um zu starten 🙂";
+"start.Currency" = "Wilkommen zur ersten Version von Financer!\nVerwenden Sie $, £ oder € ? 😉";
+"label.Salary" = "GEHALT";
+"label.Groceries" = "LEBENSMITTEL";
+"label.Housing" = "MIETE";
