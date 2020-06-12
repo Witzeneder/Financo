@@ -394,3 +394,12 @@ class RealmManager {
         }
     }
 }
+
+#if DEBUG
+extension RealmManager {
+    public func exposeGetSortedEntriesFromRawData(rawData: [Entry]) -> [SortedEntry] {
+        return self.getSortedEntriesFromRawData(rawData: rawData)
+    }
+}
+#endif
+

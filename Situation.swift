@@ -227,9 +227,11 @@ class Situation: UIViewController, ChartViewDelegate, UIPickerViewDelegate, UIPi
         }
         setupChart(month: currentMonth, year: currentYear)
         
-        
         if self.interstitialAD.isReady {
-            self.interstitialAD.present(fromRootViewController: self)
+            let testMode =  ProcessInfo.processInfo.arguments.contains("testMode")
+            if !testMode {
+                self.interstitialAD.present(fromRootViewController: self)
+            }
         }
         
     }

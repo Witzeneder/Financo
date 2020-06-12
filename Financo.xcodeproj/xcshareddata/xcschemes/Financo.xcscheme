@@ -28,6 +28,26 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "E4EC341024938A6800BDE6AB"
+               BuildableName = "FinancoTests.xctest"
+               BlueprintName = "FinancoTests"
+               ReferencedContainer = "container:Financo.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "E4EC341E2493B5DB00BDE6AB"
+               BuildableName = "FinancoUITests.xctest"
+               BlueprintName = "FinancoUITests"
+               ReferencedContainer = "container:Financo.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
@@ -50,15 +70,6 @@
             ReferencedContainer = "container:Financo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E4696F3021306ACF002378D2"
-            BuildableName = "Financo.app"
-            BlueprintName = "Financo"
-            ReferencedContainer = "container:Financo.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"

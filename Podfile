@@ -13,4 +13,12 @@ pod 'Charts'
 pod 'PopupDialog', '~> 0.9'
 pod 'pop', '~> 1.0'
 pod 'Google-Mobile-Ads-SDK'
+
+target 'FinancoTests' do
+    inherit! :complete
+end
+end
+
+target 'FinancoUITests' do
+    inherit! :complete
 end

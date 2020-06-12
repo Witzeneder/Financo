@@ -148,6 +148,7 @@
 		286807D3C2B82C0C52156AC968CFA068 /* RLMObject.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 0AA7713FE3F2C88C6A4BA27690665E0B /* RLMObject.h */; };
 		28B410124BA98ECF1807C19E90A3496E /* PolygonNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE0EF45FD403ADBD1E3B57D79FFB7EA /* PolygonNode.swift */; };
 		28FF318EFB5709E168125713A427357C /* POPSpringAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1C9E46A4C0E6B84C46D9B425F4CC7E1B /* POPSpringAnimation.mm */; };
+		29928E4EA52B80C83FFBCEC594F56273 /* Pods-FinancoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C2CD401F84054820CA70752015CE680 /* Pods-FinancoUITests-dummy.m */; };
 		29C0E9014234DF471001D04A53C5EE6B /* GULHeartbeatDateStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F82349B2BDD47C49FD5CEA6E412F500 /* GULHeartbeatDateStorage.m */; };
 		29C812091887EA1BEF4F825CC4206F37 /* LayerDebugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FAEBC9FA77775DE301C452C53C8FFA /* LayerDebugging.swift */; };
 		2A134CE786460FC844B7B9B5ECF7AD9C /* sync_config.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6CE179602553ABA12ED398DB1201E12F /* sync_config.cpp */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"5.0.3\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
@@ -234,6 +235,7 @@
 		4FE0ACA2C156AE906F87C3E13CCF2736 /* ShapeCompositionLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC06C2F3EC4E9E89F794E7F3EE98DDC4 /* ShapeCompositionLayer.swift */; };
 		4FE6488427BE448323CD0A2F8460B96A /* GULKeychainUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = E4640321BB5D2B7114B883A3E1786FF5 /* GULKeychainUtils.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		4FFF5D9D67F39D2CF4D4C016EECACB00 /* RLMPlatform.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 4ACB78AA6344792D570E4366582304F1 /* RLMPlatform.h */; };
+		500F1687AC3747E9618CC8A28C7E5BED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E584F1E64A940C70CD2FB1564E402A1B /* Foundation.framework */; };
 		50A8B48A98FC0D65D138AB7D030497AA /* RLMObjectBase_Private.h in Copy . Private Headers */ = {isa = PBXBuildFile; fileRef = 389A8F17531A324D8BD7D802D0AEC0B4 /* RLMObjectBase_Private.h */; };
 		50D4F76821510CDFFF85EBD4DAC5DAC0 /* POPAnimationPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 32739151B054002F540C8A7CED0877CB /* POPAnimationPrivate.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		5120291734D77494B3D96DFCC2EE9857 /* RLMMigration.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 0D0BEEBB7B6789BE67974809078140F7 /* RLMMigration.h */; };
@@ -258,7 +260,7 @@
 		5640F08A69F52AA4E482C7E19C55B72B /* StrokeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868517D55F37FA4F1BB5DB58EBC21000 /* StrokeNode.swift */; };
 		56D79D21489B99536E56D11613733DD3 /* RLMSyncManager.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = E47804850D1F7F6897A66E6124292E7B /* RLMSyncManager.h */; };
 		57B3FEF620AA9F256E6DFC810DF30C04 /* RLMArray_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 24234DB6DAEACD08A50BEB68607CA85B /* RLMArray_Private.h */; };
-		57DCB6E2773B7D1C661BB3F198D1E087 /* Pods-Financo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 19683750BB1918967CBC9F298B5874C4 /* Pods-Financo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		57DCB6E2773B7D1C661BB3F198D1E087 /* Pods-Financo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AB1539C04247D67CBC827157C69C8760 /* Pods-Financo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		580208618290A9CAF6651BF915F1B6E4 /* RLMUtil.mm in Sources */ = {isa = PBXBuildFile; fileRef = FDB7632235CF3410CCB408A188585D02 /* RLMUtil.mm */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"5.0.3\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
 		5826583CEB8C7969ABD8BB5DF5EEBD98 /* index_set.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57C7177CA39A3FE4571F01D90E911FD6 /* index_set.cpp */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"5.0.3\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
 		58398B0E03224E5EBE7FCFAD62F8FB69 /* ILineChartDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CE0D8E6348A50D12B30516D00E7E1D /* ILineChartDataSet.swift */; };
@@ -373,6 +375,7 @@
 		83907D8546A31C4C4B1E31DA90A0CD77 /* ChartLimitLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B555F81BA17E95407C3B37495013DC /* ChartLimitLine.swift */; };
 		83B9E5412A63412A151E0092BF6AF7CA /* PresentationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABECD2FB97ACD0D68DF2526F7CEF5D4 /* PresentationManager.swift */; };
 		83BBD232FE2EA04587B21C81B73AFC09 /* ChartDataEntryBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B61146511D0508CF6F9C17F114F112 /* ChartDataEntryBase.swift */; };
+		83CC859B440A340D2F885985A3BD4CF1 /* Pods-Financo-FinancoTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0969E0794A362948E4CED26D477CB761 /* Pods-Financo-FinancoTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		84E1FE5DD6DE9A0C7764A29FC9F11155 /* RLMResults.h in Headers */ = {isa = PBXBuildFile; fileRef = CB2B71E746EEBD6D2B1359D1BE74CCAF /* RLMResults.h */; };
 		84E8B926FACE4FA809F931BFB6CEF96D /* RLMSyncSubscription.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CAB8F886F6FED00F15DFFBBB8980B8D /* RLMSyncSubscription.h */; };
 		85794C1E4A7DF398C62C13D57990914C /* PathOutputNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = E748001CA027E97E076F6E849F014BB8 /* PathOutputNode.swift */; };
@@ -485,6 +488,7 @@
 		AB378EF4F418F0A00D68FA7B37A60491 /* RLMOptionalBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ED9FD9A4181982195B005208A14FA05 /* RLMOptionalBase.h */; };
 		AB95ADFEF48FFF405F606ADA7D3AC0C8 /* POPAnimationEventInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C53E0F4F22B5E23EEAF1DDF8544E1D2 /* POPAnimationEventInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		ABC6878E21B62261BBB4E1631E5EDAF1 /* ChartDataEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F6CF71744378B1F79389827F122D1E /* ChartDataEntry.swift */; };
+		ABF7B8D9AAA392F9A7F6B3C56A5992D2 /* Pods-Financo-FinancoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C1636E0A3AFD986F6FAEEEE1A9D40E16 /* Pods-Financo-FinancoTests-dummy.m */; };
 		AC5A00D05AD80A2990C407BB4948C898 /* ColorValueProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEFB9BA3B1F24A96EC82DDF369F05F5 /* ColorValueProvider.swift */; };
 		AD1E6E99CE3807BF3DEE1BEBE6E3CAF2 /* BarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2865FCDBA90F2BE7FA0470D8621DA77 /* BarChartView.swift */; };
 		AE45C7AB3A66FD65252B969F90225FA2 /* async_open_task.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0B5CC01478B4CDA3D6C4454081BE238A /* async_open_task.cpp */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"5.0.3\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
@@ -702,7 +706,7 @@
 		FA084CFF848BE2444753E60154D24538 /* GULAppEnvironmentUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8E0D4D6BEB0280B13688E99FD13846 /* GULAppEnvironmentUtil.m */; };
 		FA1D52E07D8C16577F94A5FD5C8DCF6C /* FBLPromise+Await.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = E4C4A25382467766904EC606376F33E6 /* FBLPromise+Await.h */; };
 		FAD8B6B429281DE526BF30D66C4BD0F0 /* FBLPromise+Recover.m in Sources */ = {isa = PBXBuildFile; fileRef = 217C3413319E6D423246AC45FA842BB9 /* FBLPromise+Recover.m */; };
-		FB62FDA2AE6F7E8F56C9DC61B0D32385 /* Pods-Financo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E263158B2170230967265CB1DC2CEE /* Pods-Financo-dummy.m */; };
+		FB62FDA2AE6F7E8F56C9DC61B0D32385 /* Pods-Financo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 782035C5975E7865B07E535F079D8054 /* Pods-Financo-dummy.m */; };
 		FB7E4B3BFB5B9E4DFBFA56AFDF061226 /* TextAnimatorNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E0A3E8C9323DD5F585D5436D615A55 /* TextAnimatorNode.swift */; };
 		FC378CAAA9FD5B4B156B982EBDB12BA3 /* IRadarChartDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB54366218424C6669C05582B0FFBBAE /* IRadarChartDataSet.swift */; };
 		FC68947295615A5953952152FC6CB38F /* RLMRealmConfiguration.mm in Sources */ = {isa = PBXBuildFile; fileRef = 75417F5CACFE1C0BB881D1A64FEF3C90 /* RLMRealmConfiguration.mm */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"5.0.3\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
@@ -723,6 +727,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = B53D977A951AFC38B21751B706C1DF83;
 			remoteInfo = GoogleAppMeasurement;
+		};
+		049AB6BDC9DD11319B3CC0717A46DA03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BBF7206D7FAC92C82A042A99C4A98F8;
+			remoteInfo = PromisesObjC;
 		};
 		1477AB9DF95C5599B724794543548AF3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -759,6 +770,13 @@
 			remoteGlobalIDString = 7D914FA2F03C860D5133BA2DB87C594A;
 			remoteInfo = DynamicBlurView;
 		};
+		3358390617F88DF04B56CCE38E46B250 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D7F5D5DD528D21A72DC87ADA5B12E2D;
+			remoteInfo = GoogleUtilities;
+		};
 		38A2180A8D3001C86A5482089567C594 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -779,6 +797,41 @@
 			proxyType = 1;
 			remoteGlobalIDString = 68494F30B4A13F8E5E88BCCAEC25B0A4;
 			remoteInfo = Realm;
+		};
+		523708FC0B9D5CC8B97E0A0C73C680BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2B5E7DCCBBFB32341D857D01211A1A3;
+			remoteInfo = nanopb;
+		};
+		53A056AA4CF123F789F8618E04DE0AE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 782725687624F8665247B84AB581BEB1;
+			remoteInfo = RealmSwift;
+		};
+		5730DFA3975D761DD4DE65818A5B5D88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0483D7F620C992E5C4BD62A7266EABB4;
+			remoteInfo = pop;
+		};
+		670BA5362950F5C915591FCDED1B90B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF03B0B2B8B052092CB5F90CC5FB3757;
+			remoteInfo = Charts;
+		};
+		6754331702C15C0F58B5C1DA5F42BDEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B53D977A951AFC38B21751B706C1DF83;
+			remoteInfo = GoogleAppMeasurement;
 		};
 		8A746E659BFEA91898B087ADF6A8E4B5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -801,6 +854,13 @@
 			remoteGlobalIDString = B53D977A951AFC38B21751B706C1DF83;
 			remoteInfo = GoogleAppMeasurement;
 		};
+		B3CBFD7B38AB85B8D0D15560F7F6AD55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B967D7F8561D42493EE289EC8D450D1;
+			remoteInfo = "lottie-ios";
+		};
 		B9F7CD5C8DFF91088DD546585354980A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -822,6 +882,13 @@
 			remoteGlobalIDString = 0483D7F620C992E5C4BD62A7266EABB4;
 			remoteInfo = pop;
 		};
+		D1A57C4C06A1A7F339CEF540A3988D14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E71929B582F8CD57B3DC1FD6560F047;
+			remoteInfo = PopupDialog;
+		};
 		D64F35511E7DEA073FBBD784424D42AE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -836,12 +903,33 @@
 			remoteGlobalIDString = 8D7F5D5DD528D21A72DC87ADA5B12E2D;
 			remoteInfo = GoogleUtilities;
 		};
+		DC5757CE3F8E52B56AD1A439C261CE91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68494F30B4A13F8E5E88BCCAEC25B0A4;
+			remoteInfo = Realm;
+		};
 		F9DC541EAE8A81427C5C46D0B09F60CD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 0B967D7F8561D42493EE289EC8D450D1;
 			remoteInfo = "lottie-ios";
+		};
+		FD8BD5FC80196D3939484E50B04B3F27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEA3B3A570634836C0457F3D7CEF1699;
+			remoteInfo = "Google-Mobile-Ads-SDK";
+		};
+		FDCB48581C196F04EB32C22B0D4061EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D914FA2F03C860D5133BA2DB87C594A;
+			remoteInfo = DynamicBlurView;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -982,6 +1070,7 @@
 		0909BC4BF5F67C7A5072A63B5F676DCF /* Legend.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Legend.swift; path = Source/Charts/Components/Legend.swift; sourceTree = "<group>"; };
 		093CD17FCA5025CBFCF5C92C9A08EC1B /* DynamicBlurView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicBlurView.swift; path = DynamicBlurView/DynamicBlurView.swift; sourceTree = "<group>"; };
 		0941B85A3839A61D9C46CE734C053FDC /* GULNetworkLoggerProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULNetworkLoggerProtocol.h; path = GoogleUtilities/Network/Private/GULNetworkLoggerProtocol.h; sourceTree = "<group>"; };
+		0969E0794A362948E4CED26D477CB761 /* Pods-Financo-FinancoTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Financo-FinancoTests-umbrella.h"; sourceTree = "<group>"; };
 		0987ACCB726A0677DA8C78D60248AD5E /* LegendRenderer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LegendRenderer.swift; path = Source/Charts/Renderers/LegendRenderer.swift; sourceTree = "<group>"; };
 		09E1EBF0687B4755500EF2BE0F9E13EA /* ImageCompositionLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageCompositionLayer.swift; path = "lottie-swift/src/Private/LayerContainers/CompLayers/ImageCompositionLayer.swift"; sourceTree = "<group>"; };
 		09F985FA68EA001FF470AB9D7D0B1B42 /* HorizontalBarChartRenderer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HorizontalBarChartRenderer.swift; path = Source/Charts/Renderers/HorizontalBarChartRenderer.swift; sourceTree = "<group>"; };
@@ -990,6 +1079,7 @@
 		0A8A69EB24C6427421B653585B817C8F /* DefaultFillFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultFillFormatter.swift; path = Source/Charts/Formatters/DefaultFillFormatter.swift; sourceTree = "<group>"; };
 		0AA7713FE3F2C88C6A4BA27690665E0B /* RLMObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMObject.h; path = include/RLMObject.h; sourceTree = "<group>"; };
 		0AB500801558CC02DE4EAC8742C753EF /* PopupDialog.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PopupDialog.xcconfig; sourceTree = "<group>"; };
+		0ADE611789D649518B76A71673552E5B /* libPods-FinancoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-FinancoUITests.a"; path = "libPods-FinancoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B12BE2CD841AD43380ECC54FBDC37EF /* POPAnimationExtras.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPAnimationExtras.mm; path = pop/POPAnimationExtras.mm; sourceTree = "<group>"; };
 		0B4A8C2905B97DC188741F33E885CC60 /* ChartAnimationEasing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChartAnimationEasing.swift; path = Source/Charts/Animation/ChartAnimationEasing.swift; sourceTree = "<group>"; };
 		0B5CC01478B4CDA3D6C4454081BE238A /* async_open_task.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = async_open_task.cpp; path = Realm/ObjectStore/src/sync/async_open_task.cpp; sourceTree = "<group>"; };
@@ -998,12 +1088,14 @@
 		0BB7114924C12B51B09698BF7E8AA85F /* RLMProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMProperty.h; path = include/RLMProperty.h; sourceTree = "<group>"; };
 		0D0BEEBB7B6789BE67974809078140F7 /* RLMMigration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMMigration.h; path = include/RLMMigration.h; sourceTree = "<group>"; };
 		0D5E076A5DFDADDB648E99CF39618FBB /* POPLayerExtras.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPLayerExtras.mm; path = pop/POPLayerExtras.mm; sourceTree = "<group>"; };
+		0D80FCFEA41CB675DB7B9D9C4BDE6147 /* Pods-Financo-FinancoTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Financo-FinancoTests-Info.plist"; sourceTree = "<group>"; };
 		0D89BE11945417AB355A0274471A1FFE /* Asset.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Asset.swift; path = "lottie-swift/src/Private/Model/Assets/Asset.swift"; sourceTree = "<group>"; };
 		0DC9FD9DF70E52EDFA716C27DB39D791 /* CGFloatExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGFloatExtensions.swift; path = "lottie-swift/src/Private/Utility/Extensions/CGFloatExtensions.swift"; sourceTree = "<group>"; };
 		0E2B5655616D153D40CFFE4C3253BC5E /* GULNetworkConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GULNetworkConstants.m; path = GoogleUtilities/Network/GULNetworkConstants.m; sourceTree = "<group>"; };
 		0E31E6E0709E59574B5BD99F81FADD51 /* AnimationImageProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimationImageProvider.swift; path = "lottie-swift/src/Public/ImageProvider/AnimationImageProvider.swift"; sourceTree = "<group>"; };
 		0E7547E42C0B9C39367BAB519DBDDE8C /* CompositionLayersInitializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CompositionLayersInitializer.swift; path = "lottie-swift/src/Private/LayerContainers/Utility/CompositionLayersInitializer.swift"; sourceTree = "<group>"; };
 		0E79947F71B98C0BBAA22181770B5253 /* ObjectSchema.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObjectSchema.swift; path = RealmSwift/ObjectSchema.swift; sourceTree = "<group>"; };
+		0EA2FA8A66439B6F227C49481C20FF1D /* Pods-Financo-FinancoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Financo-FinancoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		0F59122A0D8ACC09B182D1AA94EC483B /* NodePropertyMap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NodePropertyMap.swift; path = "lottie-swift/src/Private/NodeRenderSystem/NodeProperties/Protocols/NodePropertyMap.swift"; sourceTree = "<group>"; };
 		1004E833A798C3D229AFB1085F7B6D33 /* RLMSchema_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMSchema_Private.h; path = include/RLMSchema_Private.h; sourceTree = "<group>"; };
 		113683CBC27A1EBEA633CC4A1AFD6381 /* ChartUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChartUtils.swift; path = Source/Charts/Utils/ChartUtils.swift; sourceTree = "<group>"; };
@@ -1018,6 +1110,7 @@
 		167570C858E5CCF990C44D5F70C2B560 /* RLMAnalytics.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMAnalytics.mm; path = Realm/RLMAnalytics.mm; sourceTree = "<group>"; };
 		168DAF1E8860AA9F42D58B37368074D0 /* RadarChartDataSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RadarChartDataSet.swift; path = Source/Charts/Data/Implementations/Standard/RadarChartDataSet.swift; sourceTree = "<group>"; };
 		1702A737546EA31AFB9122DDD322F5E9 /* AxisBase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AxisBase.swift; path = Source/Charts/Components/AxisBase.swift; sourceTree = "<group>"; };
+		17143BCACC022DCCDF5B7E8367E999E7 /* Pods-Financo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Financo.release.xcconfig"; sourceTree = "<group>"; };
 		17206C486CE5A102AA03FBB11D3EF32E /* system_configuration.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = system_configuration.cpp; path = Realm/ObjectStore/src/sync/impl/apple/system_configuration.cpp; sourceTree = "<group>"; };
 		17566AAFEF7DF81687F98390F3C726A2 /* ChartHighlighter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChartHighlighter.swift; path = Source/Charts/Highlight/ChartHighlighter.swift; sourceTree = "<group>"; };
 		1863B8AA61650C17F857B9725739A437 /* FBLPromises.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBLPromises.h; path = Sources/FBLPromises/include/FBLPromises.h; sourceTree = "<group>"; };
@@ -1026,7 +1119,6 @@
 		188B7145E07F83BE09F281806BE7BCEE /* FBLPromise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBLPromise.h; path = Sources/FBLPromises/include/FBLPromise.h; sourceTree = "<group>"; };
 		18AF473729591714E3D724D54254606B /* FBLPromise+Any.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Any.h"; path = "Sources/FBLPromises/include/FBLPromise+Any.h"; sourceTree = "<group>"; };
 		19506B50ECB4EE6B2618BE7EE153772B /* Stroke.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Stroke.swift; path = "lottie-swift/src/Private/Model/ShapeItems/Stroke.swift"; sourceTree = "<group>"; };
-		19683750BB1918967CBC9F298B5874C4 /* Pods-Financo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Financo-umbrella.h"; sourceTree = "<group>"; };
 		19CE03C03D1A12E00DBFE669F932E716 /* List.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = List.swift; path = RealmSwift/List.swift; sourceTree = "<group>"; };
 		19DF2A686BB8CDB782CF811EE7B194D9 /* GroupInterpolator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GroupInterpolator.swift; path = "lottie-swift/src/Private/NodeRenderSystem/NodeProperties/ValueProviders/GroupInterpolator.swift"; sourceTree = "<group>"; };
 		19F8FFFF33924964F4625A98D6964DFB /* list.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = list.cpp; path = Realm/ObjectStore/src/list.cpp; sourceTree = "<group>"; };
@@ -1051,6 +1143,7 @@
 		200CCDEB8AE5C58C696BFAF448168A63 /* CandleChartDataSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CandleChartDataSet.swift; path = Source/Charts/Data/Implementations/Standard/CandleChartDataSet.swift; sourceTree = "<group>"; };
 		2131464D5ED11CBB8D883BB9EE2F0C5C /* CurveVertex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CurveVertex.swift; path = "lottie-swift/src/Private/Utility/Primitives/CurveVertex.swift"; sourceTree = "<group>"; };
 		2170F22BE962360B09A8F2530E8CBB64 /* XAxisRenderer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XAxisRenderer.swift; path = Source/Charts/Renderers/XAxisRenderer.swift; sourceTree = "<group>"; };
+		2173128BA0E2D5A7C965E11F43B9E652 /* Pods-Financo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Financo-acknowledgements.markdown"; sourceTree = "<group>"; };
 		217C3413319E6D423246AC45FA842BB9 /* FBLPromise+Recover.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Recover.m"; path = "Sources/FBLPromises/FBLPromise+Recover.m"; sourceTree = "<group>"; };
 		22077A1D33DA8D31A9B328A00DA66706 /* CandleStickChartRenderer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CandleStickChartRenderer.swift; path = Source/Charts/Renderers/CandleStickChartRenderer.swift; sourceTree = "<group>"; };
 		2209E995E7C0A61169B10481F34B9522 /* FBLPromise+Testing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Testing.h"; path = "Sources/FBLPromises/include/FBLPromise+Testing.h"; sourceTree = "<group>"; };
@@ -1063,6 +1156,7 @@
 		2624A5BD6DAA8780F4BF40C299A76856 /* PassThroughOutputNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PassThroughOutputNode.swift; path = "lottie-swift/src/Private/NodeRenderSystem/Nodes/OutputNodes/PassThroughOutputNode.swift"; sourceTree = "<group>"; };
 		26403E942DC071B373ECB6340FFE066D /* binding_callback_thread_observer.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = binding_callback_thread_observer.cpp; path = Realm/ObjectStore/src/binding_callback_thread_observer.cpp; sourceTree = "<group>"; };
 		271FE5714B59201A5468CBC541130AF3 /* PieRadarHighlighter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PieRadarHighlighter.swift; path = Source/Charts/Highlight/PieRadarHighlighter.swift; sourceTree = "<group>"; };
+		27AB11A52FC05DBC6C315497AAF309D9 /* Pods-Financo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Financo-frameworks.sh"; sourceTree = "<group>"; };
 		28355F913CEFECA17DF1C9489699960C /* pb.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pb.h; sourceTree = "<group>"; };
 		2878D638ED1669CEF39F2A80FB9E7B1E /* POPAnimationRuntime.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPAnimationRuntime.mm; path = pop/POPAnimationRuntime.mm; sourceTree = "<group>"; };
 		289BED7E30C8C7C9F8855DE1DEDCAB4E /* pb_encode.c */ = {isa = PBXFileReference; includeInIndex = 1; path = pb_encode.c; sourceTree = "<group>"; };
@@ -1120,7 +1214,7 @@
 		3A3FA23A04AC54B143D7B20DF9BAA299 /* NSError+RLMSync.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSError+RLMSync.m"; path = "Realm/NSError+RLMSync.m"; sourceTree = "<group>"; };
 		3B87F1B855C1CE7CB48CC04951A60DA6 /* GULNetwork.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULNetwork.h; path = GoogleUtilities/Network/Private/GULNetwork.h; sourceTree = "<group>"; };
 		3B8DFE1D6D3E628FE62589B0833A942F /* AnimationKeypath.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimationKeypath.swift; path = "lottie-swift/src/Public/DynamicProperties/AnimationKeypath.swift"; sourceTree = "<group>"; };
-		3C1F8D583479F54BBBDD46CFACA29649 /* Pods-Financo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Financo-frameworks.sh"; sourceTree = "<group>"; };
+		3C2CD401F84054820CA70752015CE680 /* Pods-FinancoUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FinancoUITests-dummy.m"; sourceTree = "<group>"; };
 		3C43E5DBEB5DA6E1FFA02CD555AF1E90 /* POPAnimationTracer.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPAnimationTracer.mm; path = pop/POPAnimationTracer.mm; sourceTree = "<group>"; };
 		3C5DAC701531A9A26290CCEC5A227759 /* ImageLayerModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageLayerModel.swift; path = "lottie-swift/src/Private/Model/Layers/ImageLayerModel.swift"; sourceTree = "<group>"; };
 		3C70FD5CEB2AFBA650DD33BAB2725E60 /* RadarChartRenderer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RadarChartRenderer.swift; path = Source/Charts/Renderers/RadarChartRenderer.swift; sourceTree = "<group>"; };
@@ -1147,6 +1241,7 @@
 		457D3F64F20B47565A9A2655C75DA3BB /* ChartDataSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChartDataSet.swift; path = Source/Charts/Data/Implementations/Standard/ChartDataSet.swift; sourceTree = "<group>"; };
 		45B61146511D0508CF6F9C17F114F112 /* ChartDataEntryBase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChartDataEntryBase.swift; path = Source/Charts/Data/Implementations/Standard/ChartDataEntryBase.swift; sourceTree = "<group>"; };
 		45D8471ABE52186E02344CEA74E64069 /* AnimationView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimationView.swift; path = "lottie-swift/src/Public/Animation/AnimationView.swift"; sourceTree = "<group>"; };
+		4691A0DC7C98A2586103FB301928AB75 /* Pods-FinancoUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FinancoUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		46D9018BBFC8E1E338E1F83AE488DE1A /* Charts.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Charts.modulemap; sourceTree = "<group>"; };
 		4725838E41A2445FF49E6D9A7A1920A6 /* BarHighlighter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarHighlighter.swift; path = Source/Charts/Highlight/BarHighlighter.swift; sourceTree = "<group>"; };
 		488F68AC56C780237336D3AB5F2911B0 /* SquareShapeRenderer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SquareShapeRenderer.swift; path = Source/Charts/Renderers/Scatter/SquareShapeRenderer.swift; sourceTree = "<group>"; };
@@ -1181,6 +1276,7 @@
 		526F58D5B31F1B01C6BA71C0834489BB /* LineScatterCandleRadarRenderer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LineScatterCandleRadarRenderer.swift; path = Source/Charts/Renderers/LineScatterCandleRadarRenderer.swift; sourceTree = "<group>"; };
 		5364B24A6BC46E86E4E1498F211BD4B4 /* CombinedChartData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CombinedChartData.swift; path = Source/Charts/Data/Implementations/Standard/CombinedChartData.swift; sourceTree = "<group>"; };
 		53ACCF6445DB68CAAF8700F379E40D72 /* AssetLibrary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AssetLibrary.swift; path = "lottie-swift/src/Private/Model/Assets/AssetLibrary.swift"; sourceTree = "<group>"; };
+		53C16664C22BA36763D33F4542D4EC75 /* Pods_Financo_FinancoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Financo_FinancoTests.framework; path = "Pods-Financo-FinancoTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		54265A4C126035FD58582F204B60C076 /* GULSceneDelegateSwizzler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GULSceneDelegateSwizzler.m; path = GoogleUtilities/SceneDelegateSwizzler/GULSceneDelegateSwizzler.m; sourceTree = "<group>"; };
 		54C0079353645FC7F711F4197F2397FD /* IBarLineScatterCandleBubbleChartDataSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IBarLineScatterCandleBubbleChartDataSet.swift; path = Source/Charts/Data/Interfaces/IBarLineScatterCandleBubbleChartDataSet.swift; sourceTree = "<group>"; };
 		55419EA466584DDFE933CAA297B8AC07 /* FBLPromise+Timeout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Timeout.h"; path = "Sources/FBLPromises/include/FBLPromise+Timeout.h"; sourceTree = "<group>"; };
@@ -1208,6 +1304,7 @@
 		5C7977A8B84317CD5ACBC540F14B8EB3 /* Vectors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Vectors.swift; path = "lottie-swift/src/Public/Primitives/Vectors.swift"; sourceTree = "<group>"; };
 		5D3C63C814498DCB2D2741C9F133236D /* BubbleChartView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BubbleChartView.swift; path = Source/Charts/Charts/BubbleChartView.swift; sourceTree = "<group>"; };
 		5E8C04FE22E3A583AAFBC7C264252F21 /* FBLPromise+Catch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Catch.h"; path = "Sources/FBLPromises/include/FBLPromise+Catch.h"; sourceTree = "<group>"; };
+		5EBE53BB3590BB0D66C3D38745B8D0CB /* Pods-FinancoUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FinancoUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		5F0104E22FD0CA9EF8CB4C566F48BDB0 /* pop-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "pop-Info.plist"; sourceTree = "<group>"; };
 		5F1778502D7874671669A9EA038338A1 /* placeholder.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = placeholder.cpp; path = Realm/ObjectStore/src/placeholder.cpp; sourceTree = "<group>"; };
 		5F8930F82F4563BA70569E3B6669CA53 /* DynamicBlurView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DynamicBlurView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1218,6 +1315,7 @@
 		61E0F0228AD8132F8AF046F7F89A92FC /* ItemsExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ItemsExtension.swift; path = "lottie-swift/src/Private/NodeRenderSystem/Extensions/ItemsExtension.swift"; sourceTree = "<group>"; };
 		6237465578ACDEEF42FCB65D3C2FE5F5 /* XShapeRenderer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XShapeRenderer.swift; path = Source/Charts/Renderers/Scatter/XShapeRenderer.swift; sourceTree = "<group>"; };
 		62AD9870C5B1FBA3B3E65AA1E9C03648 /* CompatibleAnimationKeypath.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CompatibleAnimationKeypath.swift; path = "lottie-swift/src/Public/iOS/Compatibility/CompatibleAnimationKeypath.swift"; sourceTree = "<group>"; };
+		639C9121C92A1A34DA9908034512C0B5 /* Pods-Financo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Financo.debug.xcconfig"; sourceTree = "<group>"; };
 		63CA796DCF2BC7EEB579989FA4DC08BE /* RLMSyncConfiguration.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMSyncConfiguration.mm; path = Realm/RLMSyncConfiguration.mm; sourceTree = "<group>"; };
 		6413D71237CDFEED840359FC673790AA /* PrecompAsset.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PrecompAsset.swift; path = "lottie-swift/src/Private/Model/Assets/PrecompAsset.swift"; sourceTree = "<group>"; };
 		64C326488E53BAEA0A54F3C181111408 /* POP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POP.h; path = pop/POP.h; sourceTree = "<group>"; };
@@ -1228,6 +1326,7 @@
 		6959B1319386BDFBF36EEE2626CB1A4C /* FBLPromise+Retry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Retry.h"; path = "Sources/FBLPromises/include/FBLPromise+Retry.h"; sourceTree = "<group>"; };
 		696736DA994A95B874ACC23BF1D61336 /* PopupDialogDefaultViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupDialogDefaultViewController.swift; path = PopupDialog/Classes/PopupDialogDefaultViewController.swift; sourceTree = "<group>"; };
 		69BBD37676B79677ECC34597351F4999 /* results.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = results.cpp; path = Realm/ObjectStore/src/results.cpp; sourceTree = "<group>"; };
+		69C761E8024870A81E13E2FA76F558CB /* Pods-Financo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Financo-Info.plist"; sourceTree = "<group>"; };
 		6A70959FA2796E53C8EB53298691CAA6 /* ScatterChartView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScatterChartView.swift; path = Source/Charts/Charts/ScatterChartView.swift; sourceTree = "<group>"; };
 		6AA65D43F85065E50ED00595325CEE75 /* RLMSyncConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMSyncConfiguration.h; path = include/RLMSyncConfiguration.h; sourceTree = "<group>"; };
 		6AEE048671FC4A1B71C6B08935BBC53F /* RLMClassInfo.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMClassInfo.mm; path = Realm/RLMClassInfo.mm; sourceTree = "<group>"; };
@@ -1255,6 +1354,7 @@
 		74FAEBC9FA77775DE301C452C53C8FFA /* LayerDebugging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayerDebugging.swift; path = "lottie-swift/src/Private/Utility/Debugging/LayerDebugging.swift"; sourceTree = "<group>"; };
 		752E11729B7FA5BCF548B733E4CCE965 /* GULLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GULLogger.m; path = GoogleUtilities/Logger/GULLogger.m; sourceTree = "<group>"; };
 		75417F5CACFE1C0BB881D1A64FEF3C90 /* RLMRealmConfiguration.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMRealmConfiguration.mm; path = Realm/RLMRealmConfiguration.mm; sourceTree = "<group>"; };
+		757B3E3A96D526EEF8E84A5BB9D3C088 /* Pods-Financo-FinancoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Financo-FinancoTests.release.xcconfig"; sourceTree = "<group>"; };
 		75B3F592B90F73EBA36695BED7BAC278 /* RealmSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RealmSwift.modulemap; sourceTree = "<group>"; };
 		763F4BE38AF51355626B7CC83F2CC51C /* YAxisRenderer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YAxisRenderer.swift; path = Source/Charts/Renderers/YAxisRenderer.swift; sourceTree = "<group>"; };
 		76631ADC50E92D257E3893DBD102EB4A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -1262,6 +1362,7 @@
 		769B6CAD3CE562EFA3F5EE6460441398 /* GoogleUtilities-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GoogleUtilities-Info.plist"; sourceTree = "<group>"; };
 		76FA383E8862B12F8FE2A69E9F46BB8A /* FBLPromise+Always.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Always.h"; path = "Sources/FBLPromises/include/FBLPromise+Always.h"; sourceTree = "<group>"; };
 		7702207D6A53697CBE8B293A91DE1FBC /* RLMSyncSubscription.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMSyncSubscription.mm; path = Realm/RLMSyncSubscription.mm; sourceTree = "<group>"; };
+		782035C5975E7865B07E535F079D8054 /* Pods-Financo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Financo-dummy.m"; sourceTree = "<group>"; };
 		782B09F482161746C8301CE342B8E79D /* RLMSchema.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMSchema.mm; path = Realm/RLMSchema.mm; sourceTree = "<group>"; };
 		7839C41E57AD02E43BABF4D5AF8C5A13 /* RectNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RectNode.swift; path = "lottie-swift/src/Private/NodeRenderSystem/Nodes/PathNodes/RectNode.swift"; sourceTree = "<group>"; };
 		784996130AFDEEF6AFC3F40EBBE34845 /* GradientStrokeNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GradientStrokeNode.swift; path = "lottie-swift/src/Private/NodeRenderSystem/Nodes/RenderNodes/GradientStrokeNode.swift"; sourceTree = "<group>"; };
@@ -1280,6 +1381,7 @@
 		7DD9D4CF29E3526DF48334703BDAA22A /* GULAppDelegateSwizzler_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULAppDelegateSwizzler_Private.h; path = GoogleUtilities/AppDelegateSwizzler/Internal/GULAppDelegateSwizzler_Private.h; sourceTree = "<group>"; };
 		7DEC0137EF02AF44903FA2DB008DE8B4 /* list_notifier.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = list_notifier.cpp; path = Realm/ObjectStore/src/impl/list_notifier.cpp; sourceTree = "<group>"; };
 		7E1B66EBCA4EB755F116CB9B23942A93 /* ColorExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorExtension.swift; path = "lottie-swift/src/Private/Utility/Primitives/ColorExtension.swift"; sourceTree = "<group>"; };
+		7E684021C5B22BFEAE4DE1F81C7076BE /* Pods-Financo-FinancoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Financo-FinancoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7E98A6CAE54A9ACE5D54375FA80A7103 /* BubbleChartRenderer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BubbleChartRenderer.swift; path = Source/Charts/Renderers/BubbleChartRenderer.swift; sourceTree = "<group>"; };
 		7EA359F73E6B85618DA26A7E61D11ABB /* RealmSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RealmSwift-dummy.m"; sourceTree = "<group>"; };
 		7ED9FD9A4181982195B005208A14FA05 /* RLMOptionalBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMOptionalBase.h; path = include/RLMOptionalBase.h; sourceTree = "<group>"; };
@@ -1287,7 +1389,6 @@
 		7EEDC7FBA1B28BEFF91D1B0E45E57972 /* RLMManagedArray.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMManagedArray.mm; path = Realm/RLMManagedArray.mm; sourceTree = "<group>"; };
 		80BA611D9F1EE1B255F4E0123EA0C57E /* PopupDialog.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupDialog.swift; path = PopupDialog/Classes/PopupDialog.swift; sourceTree = "<group>"; };
 		8201E403DB1728AD5E6B52272DEF8808 /* FBLPromise+Any.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Any.m"; path = "Sources/FBLPromises/FBLPromise+Any.m"; sourceTree = "<group>"; };
-		820B0B7DD08EBFD14701CE472E25FA90 /* Pods-Financo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Financo.release.xcconfig"; sourceTree = "<group>"; };
 		82FA897F26BD678ECE24B90D5C66EE60 /* FBLPromise+Do.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Do.m"; path = "Sources/FBLPromises/FBLPromise+Do.m"; sourceTree = "<group>"; };
 		83024F72DBCBD851DC3306E2363AE693 /* DynamicBlurView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DynamicBlurView-prefix.pch"; sourceTree = "<group>"; };
 		833797D378AE5053423D77F120149582 /* YAxisRendererHorizontalBarChart.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YAxisRendererHorizontalBarChart.swift; path = Source/Charts/Renderers/YAxisRendererHorizontalBarChart.swift; sourceTree = "<group>"; };
@@ -1370,6 +1471,7 @@
 		9DD6DD943AE68ACFAA4766BCF185DF8B /* RLMObjectBase_Dynamic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMObjectBase_Dynamic.h; path = include/RLMObjectBase_Dynamic.h; sourceTree = "<group>"; };
 		9E826BC77ECF3DB28F6615F1E460D272 /* GULSceneDelegateSwizzler_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULSceneDelegateSwizzler_Private.h; path = GoogleUtilities/SceneDelegateSwizzler/Internal/GULSceneDelegateSwizzler_Private.h; sourceTree = "<group>"; };
 		9F1A8895F107B11BE80CE7096AD643DC /* ILineRadarChartDataSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ILineRadarChartDataSet.swift; path = Source/Charts/Data/Interfaces/ILineRadarChartDataSet.swift; sourceTree = "<group>"; };
+		9F5279DCA843EABC8179CBE93E8E59D4 /* Pods-Financo-FinancoTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Financo-FinancoTests-frameworks.sh"; sourceTree = "<group>"; };
 		A0247020FD8DFD075713118EA9954DE0 /* ShapeContainerLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ShapeContainerLayer.swift; path = "lottie-swift/src/Private/NodeRenderSystem/RenderLayers/ShapeContainerLayer.swift"; sourceTree = "<group>"; };
 		A0987554DB0FA18EED04AACABA75FD96 /* RLMRealm_Dynamic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMRealm_Dynamic.h; path = include/RLMRealm_Dynamic.h; sourceTree = "<group>"; };
 		A14779A60BB0F95A19978CF505C566F9 /* RLMResults.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMResults.mm; path = Realm/RLMResults.mm; sourceTree = "<group>"; };
@@ -1406,14 +1508,17 @@
 		AABECD2FB97ACD0D68DF2526F7CEF5D4 /* PresentationManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresentationManager.swift; path = PopupDialog/Classes/PresentationManager.swift; sourceTree = "<group>"; };
 		AAD733C9E3904A416639427736175CD1 /* POPAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimator.h; path = pop/POPAnimator.h; sourceTree = "<group>"; };
 		AAEE3FA0EEEB74FD51A9EE6D4C3BA704 /* RLMSyncUtil.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMSyncUtil.mm; path = Realm/RLMSyncUtil.mm; sourceTree = "<group>"; };
+		AB1539C04247D67CBC827157C69C8760 /* Pods-Financo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Financo-umbrella.h"; sourceTree = "<group>"; };
 		AB7AA219CE58EB705594405ED197CD05 /* IBarChartDataSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IBarChartDataSet.swift; path = Source/Charts/Data/Interfaces/IBarChartDataSet.swift; sourceTree = "<group>"; };
 		AB8F869CC7A2811745311C9FE33D8A25 /* Merge.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Merge.swift; path = "lottie-swift/src/Private/Model/ShapeItems/Merge.swift"; sourceTree = "<group>"; };
 		ABC5982F3364D38B15FF45A03BB8A7E1 /* object_changeset.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = object_changeset.cpp; path = Realm/ObjectStore/src/object_changeset.cpp; sourceTree = "<group>"; };
 		AC25B8D27FE0BE1D4A7766CF43355E73 /* HorizontalBarChartView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HorizontalBarChartView.swift; path = Source/Charts/Charts/HorizontalBarChartView.swift; sourceTree = "<group>"; };
 		AC5C2054D922F2583405435DB9BCC2EE /* FBLPromise+Do.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Do.h"; path = "Sources/FBLPromises/include/FBLPromise+Do.h"; sourceTree = "<group>"; };
 		ACC6EE6BAB0F83E0CF37F0F80BD6E947 /* RealmConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RealmConfiguration.swift; path = RealmSwift/RealmConfiguration.swift; sourceTree = "<group>"; };
+		AD0A016609DB3FBCADCA8A20BED7F1BB /* Pods-Financo-FinancoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Financo-FinancoTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		AD484C30DB283E24D4528DC757793A5E /* XAxisRendererRadarChart.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XAxisRendererRadarChart.swift; path = Source/Charts/Renderers/XAxisRendererRadarChart.swift; sourceTree = "<group>"; };
 		AD8AB5F40B6BFF72DB7C65A5A44851E6 /* FBLPromise+Delay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Delay.h"; path = "Sources/FBLPromises/include/FBLPromise+Delay.h"; sourceTree = "<group>"; };
+		AD8E649DD88CBCC6A09A0F92D04D4582 /* Pods-FinancoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FinancoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		ADDEDA6784575075C8F92138AB2F837B /* RLMObjectSchema_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMObjectSchema_Private.h; path = include/RLMObjectSchema_Private.h; sourceTree = "<group>"; };
 		ADE6EC642D2A9B072FE66643F3E070AA /* sync_user.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = sync_user.cpp; path = Realm/ObjectStore/src/sync/sync_user.cpp; sourceTree = "<group>"; };
 		ADECF4EE213911637DCA03DAA3992BF0 /* GULSwizzler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULSwizzler.h; path = GoogleUtilities/MethodSwizzler/Private/GULSwizzler.h; sourceTree = "<group>"; };
@@ -1441,7 +1546,6 @@
 		B537D18B7E6AAFA6D44E511714DFD58D /* ImageAsset.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageAsset.swift; path = "lottie-swift/src/Private/Model/Assets/ImageAsset.swift"; sourceTree = "<group>"; };
 		B56F30A9C3B776BE961FB6DC28020501 /* weak_realm_notifier.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = weak_realm_notifier.cpp; path = Realm/ObjectStore/src/impl/weak_realm_notifier.cpp; sourceTree = "<group>"; };
 		B5C7155332FA4BA35845771A5FDB1F73 /* AnimationViewInitializers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimationViewInitializers.swift; path = "lottie-swift/src/Public/Animation/AnimationViewInitializers.swift"; sourceTree = "<group>"; };
-		B5CAC63CF75B96FE7FBCBB6957B50105 /* Pods-Financo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Financo.modulemap"; sourceTree = "<group>"; };
 		B5DF0A63F50CB289FDDFD66F48589FF9 /* SolidCompositionLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SolidCompositionLayer.swift; path = "lottie-swift/src/Private/LayerContainers/CompLayers/SolidCompositionLayer.swift"; sourceTree = "<group>"; };
 		B683F1E821B08E04472793D1EE508055 /* AnimatorNodeDebugging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatorNodeDebugging.swift; path = "lottie-swift/src/Private/Utility/Debugging/AnimatorNodeDebugging.swift"; sourceTree = "<group>"; };
 		B709B61556F317534418BF2AB57AD436 /* PieRadarChartViewBase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PieRadarChartViewBase.swift; path = Source/Charts/Charts/PieRadarChartViewBase.swift; sourceTree = "<group>"; };
@@ -1469,11 +1573,11 @@
 		BF8E0D4D6BEB0280B13688E99FD13846 /* GULAppEnvironmentUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GULAppEnvironmentUtil.m; path = GoogleUtilities/Environment/third_party/GULAppEnvironmentUtil.m; sourceTree = "<group>"; };
 		BFDD58A677ED756CA94D5FFF9D0995C8 /* CombinedHighlighter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CombinedHighlighter.swift; path = Source/Charts/Highlight/CombinedHighlighter.swift; sourceTree = "<group>"; };
 		C10B0AE0B223F8665D2F9C3BDE2819F5 /* nanopb.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = nanopb.xcconfig; sourceTree = "<group>"; };
+		C1636E0A3AFD986F6FAEEEE1A9D40E16 /* Pods-Financo-FinancoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Financo-FinancoTests-dummy.m"; sourceTree = "<group>"; };
 		C1D0AB73711D03CF218EBA58B066D5B8 /* ValueContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ValueContainer.swift; path = "lottie-swift/src/Private/NodeRenderSystem/NodeProperties/ValueContainer.swift"; sourceTree = "<group>"; };
 		C256ADA8D59AAB22F05FF46D80EF1A43 /* BarChartDataEntry.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarChartDataEntry.swift; path = Source/Charts/Data/Implementations/Standard/BarChartDataEntry.swift; sourceTree = "<group>"; };
 		C264B21A6306A3DCB7C1301A8285FE83 /* BlurLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlurLayer.swift; path = DynamicBlurView/BlurLayer.swift; sourceTree = "<group>"; };
 		C27ED29FE9894D87DFEFF7AF78B1F520 /* LineRadarRenderer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LineRadarRenderer.swift; path = Source/Charts/Renderers/LineRadarRenderer.swift; sourceTree = "<group>"; };
-		C2D8A0CCD61918C775CC1CEBCAA3893F /* Pods-Financo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Financo-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C2ED90579BCD8A83DBFC21A1D104F080 /* POPPropertyAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPPropertyAnimation.h; path = pop/POPPropertyAnimation.h; sourceTree = "<group>"; };
 		C3037001E345EE5FB36600D7BDF75183 /* InteractiveTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InteractiveTransition.swift; path = PopupDialog/Classes/InteractiveTransition.swift; sourceTree = "<group>"; };
 		C331B6A94B31B60794A1583060CE6A95 /* AnimationSubview.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimationSubview.swift; path = "lottie-swift/src/Public/iOS/AnimationSubview.swift"; sourceTree = "<group>"; };
@@ -1500,6 +1604,7 @@
 		C789BA2A8DB8902CE1B7D8AD75BCEA3D /* RLMConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMConstants.h; path = include/RLMConstants.h; sourceTree = "<group>"; };
 		C89BDE142851A8695DC29699B17845FD /* Pods_Financo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Financo.framework; path = "Pods-Financo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8AD036F04CFF0B92EB320628807B085 /* POPAnimator.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPAnimator.mm; path = pop/POPAnimator.mm; sourceTree = "<group>"; };
+		C928809533C4D55EE7E562469213F61C /* Pods-FinancoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FinancoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C932B933C9D41511B8FE9B25B897BC12 /* AxisRendererBase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AxisRendererBase.swift; path = Source/Charts/Renderers/AxisRendererBase.swift; sourceTree = "<group>"; };
 		C96359C7C773F2865758C23F321F36B5 /* Color.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Color.swift; path = "lottie-swift/src/Public/Primitives/Color.swift"; sourceTree = "<group>"; };
 		C97904611D8C652BF1C79FCA74E82E51 /* UIViewController+Visibility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+Visibility.swift"; path = "PopupDialog/Classes/UIViewController+Visibility.swift"; sourceTree = "<group>"; };
@@ -1532,6 +1637,7 @@
 		D4061B94BCA5662B3E08E8461CC20B39 /* KeyframeGroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyframeGroup.swift; path = "lottie-swift/src/Private/Model/Keyframes/KeyframeGroup.swift"; sourceTree = "<group>"; };
 		D5392B59E6C122000521F5E3D70E0674 /* VectorsExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VectorsExtensions.swift; path = "lottie-swift/src/Private/Utility/Primitives/VectorsExtensions.swift"; sourceTree = "<group>"; };
 		D5805331E8C1B261AAB4FE8CD07DA723 /* Rectangle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Rectangle.swift; path = "lottie-swift/src/Private/Model/ShapeItems/Rectangle.swift"; sourceTree = "<group>"; };
+		D5947C578C5BF64468417B1EEB866605 /* Pods-Financo-FinancoTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Financo-FinancoTests.modulemap"; sourceTree = "<group>"; };
 		D5ABF8F117C84357AACFC0AA1A51B8C3 /* POPAnimationEvent.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPAnimationEvent.mm; path = pop/POPAnimationEvent.mm; sourceTree = "<group>"; };
 		D62803072C351AB0A0CC95801A883FD8 /* lottie-ios.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "lottie-ios.xcconfig"; sourceTree = "<group>"; };
 		D67CF9764E694D56A1B793C5D2FDFD8A /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
@@ -1542,11 +1648,9 @@
 		D7EF95C2D5746F060069B1B06969797F /* TextCompositionLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextCompositionLayer.swift; path = "lottie-swift/src/Private/LayerContainers/CompLayers/TextCompositionLayer.swift"; sourceTree = "<group>"; };
 		D8ED82C28E87E2B5E51799C362E9F610 /* PopupDialog-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PopupDialog-prefix.pch"; sourceTree = "<group>"; };
 		D99053959685F4902656F1B197774E66 /* GULHeartbeatDateStorage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULHeartbeatDateStorage.h; path = GoogleUtilities/Environment/Public/GULHeartbeatDateStorage.h; sourceTree = "<group>"; };
-		D9C98766E943BE93FE193A14456D0D45 /* Pods-Financo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Financo-Info.plist"; sourceTree = "<group>"; };
 		DA20FC9816A151C2A1111C44F7EF960C /* POPAnimationExtras.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationExtras.h; path = pop/POPAnimationExtras.h; sourceTree = "<group>"; };
 		DA3A9BE8D5ED5C1518D1656DB6512F0D /* RLMSyncSessionRefreshHandle.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMSyncSessionRefreshHandle.mm; path = Realm/RLMSyncSessionRefreshHandle.mm; sourceTree = "<group>"; };
 		DB135CEE01E54287AF00C321E678F658 /* XAxis.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XAxis.swift; path = Source/Charts/Components/XAxis.swift; sourceTree = "<group>"; };
-		DC6FA5A6B8409728BB11E134856C7582 /* Pods-Financo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Financo-acknowledgements.plist"; sourceTree = "<group>"; };
 		DCFE888F6596E641F64C76717AA88014 /* RLMRealm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMRealm.h; path = include/RLMRealm.h; sourceTree = "<group>"; };
 		DD4A781464969CA06B43F368B2B77538 /* LineChartRenderer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LineChartRenderer.swift; path = Source/Charts/Renderers/LineChartRenderer.swift; sourceTree = "<group>"; };
 		DD5CB1C957594A87CD211C758362C9D5 /* RealmSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RealmSwift-Info.plist"; sourceTree = "<group>"; };
@@ -1555,7 +1659,6 @@
 		DF3CD79EAA0C09848D512D0AC4E0E72E /* RLMSyncCredentials.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMSyncCredentials.h; path = include/RLMSyncCredentials.h; sourceTree = "<group>"; };
 		DFA73BAFCC8DE24C659FC91C8AD5F52D /* FBLPromise+Timeout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Timeout.m"; path = "Sources/FBLPromises/FBLPromise+Timeout.m"; sourceTree = "<group>"; };
 		DFDEA0E7CF0E60640471BA671FF4DCE4 /* Fill.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Fill.swift; path = Source/Charts/Utils/Fill.swift; sourceTree = "<group>"; };
-		E0E263158B2170230967265CB1DC2CEE /* Pods-Financo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Financo-dummy.m"; sourceTree = "<group>"; };
 		E112F1B068EE695DD698343ADDFA65AA /* pb_encode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pb_encode.h; sourceTree = "<group>"; };
 		E171086E057CDC84818806EC2BA573A1 /* RealmSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RealmSwift.xcconfig; sourceTree = "<group>"; };
 		E1D985E0AB002ABE1ABF9BDC20887694 /* RLMSyncCredentials.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RLMSyncCredentials.m; path = Realm/RLMSyncCredentials.m; sourceTree = "<group>"; };
@@ -1577,6 +1680,7 @@
 		E8267EBC018B7AFDABA1C92ADE23087D /* TextAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextAnimator.swift; path = "lottie-swift/src/Private/Model/Text/TextAnimator.swift"; sourceTree = "<group>"; };
 		E84B2E33882F2B5F4B37445C48D6A0C2 /* RLMOptionalBase.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMOptionalBase.mm; path = Realm/RLMOptionalBase.mm; sourceTree = "<group>"; };
 		E86A573121A882C1BA9F50E88C6452BD /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = "Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.framework"; sourceTree = "<group>"; };
+		E873565FBD31D118601CE9BEAE48491E /* Pods-Financo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Financo-acknowledgements.plist"; sourceTree = "<group>"; };
 		E8D041DAFBDEB9230EBB51A4E956F614 /* Shape.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Shape.swift; path = "lottie-swift/src/Private/Model/ShapeItems/Shape.swift"; sourceTree = "<group>"; };
 		E9637D6C1ED3BB05BEE0AB869DD9B8B8 /* RLMConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RLMConstants.m; path = Realm/RLMConstants.m; sourceTree = "<group>"; };
 		E997B3926E3719CAE36C6837C875618E /* FBLPromise+Race.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Race.h"; path = "Sources/FBLPromises/include/FBLPromise+Race.h"; sourceTree = "<group>"; };
@@ -1586,6 +1690,7 @@
 		EB33ADCB3230B1DA93C63034D2ED1724 /* Charts-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Charts-prefix.pch"; sourceTree = "<group>"; };
 		EC179B75F0A04EF7E55D712B1E099CF1 /* ChevronDownShapeRenderer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChevronDownShapeRenderer.swift; path = Source/Charts/Renderers/Scatter/ChevronDownShapeRenderer.swift; sourceTree = "<group>"; };
 		EC2B43FCA932EFCC3259B69D21EBFA61 /* ObjectiveCSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObjectiveCSupport.swift; path = RealmSwift/ObjectiveCSupport.swift; sourceTree = "<group>"; };
+		EC3C8F1F0A24659E2E93FF65FE32F444 /* Pods-Financo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Financo.modulemap"; sourceTree = "<group>"; };
 		EC8C92F8A991ACB5954AFAAD50F3B273 /* ChartDataProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChartDataProvider.swift; path = Source/Charts/Interfaces/ChartDataProvider.swift; sourceTree = "<group>"; };
 		EED47C211FF72E3EE583AE28EFC2FAED /* lottie-ios-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "lottie-ios-dummy.m"; sourceTree = "<group>"; };
 		EEE0EF45FD403ADBD1E3B57D79FFB7EA /* PolygonNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PolygonNode.swift; path = "lottie-swift/src/Private/NodeRenderSystem/Nodes/PathNodes/PolygonNode.swift"; sourceTree = "<group>"; };
@@ -1616,7 +1721,6 @@
 		FD0EBE6C1AC52F7804038F29DEFDB982 /* YAxis.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YAxis.swift; path = Source/Charts/Components/YAxis.swift; sourceTree = "<group>"; };
 		FD98D43E5D353E8BFB617996C7AB348D /* PromisesObjC-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PromisesObjC-Info.plist"; sourceTree = "<group>"; };
 		FDB7632235CF3410CCB408A188585D02 /* RLMUtil.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMUtil.mm; path = Realm/RLMUtil.mm; sourceTree = "<group>"; };
-		FDCC35F8CE69CF695BFED70FE8292ED3 /* Pods-Financo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Financo.debug.xcconfig"; sourceTree = "<group>"; };
 		FE2386F2A282D76274423E41530FD189 /* GULReachabilityChecker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULReachabilityChecker.h; path = GoogleUtilities/Reachability/Private/GULReachabilityChecker.h; sourceTree = "<group>"; };
 		FE93F2326F7A0A577BDABC0DDF3F3C3F /* FBLPromise+Recover.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Recover.h"; path = "Sources/FBLPromises/include/FBLPromise+Recover.h"; sourceTree = "<group>"; };
 		FFB723E35970237A4AAB6255EDC0D3B5 /* PopupDialogContainerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupDialogContainerView.swift; path = PopupDialog/Classes/PopupDialogContainerView.swift; sourceTree = "<group>"; };
@@ -1639,6 +1743,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F5B81225CB0D20D1FAAE8442EB74F9C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68598D0DBF28443FC1F4F8FD20D9DFC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				500F1687AC3747E9618CC8A28C7E5BED /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1704,6 +1816,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AB6C61468C2EFF45AEB0C95B345FCA6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E65CA3D384260DCB7B4E58EA234ABEA5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -1728,6 +1847,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0064A85CC752422F8816BAED692EFC58 /* Pods-Financo-FinancoTests */ = {
+			isa = PBXGroup;
+			children = (
+				D5947C578C5BF64468417B1EEB866605 /* Pods-Financo-FinancoTests.modulemap */,
+				7E684021C5B22BFEAE4DE1F81C7076BE /* Pods-Financo-FinancoTests-acknowledgements.markdown */,
+				AD0A016609DB3FBCADCA8A20BED7F1BB /* Pods-Financo-FinancoTests-acknowledgements.plist */,
+				C1636E0A3AFD986F6FAEEEE1A9D40E16 /* Pods-Financo-FinancoTests-dummy.m */,
+				9F5279DCA843EABC8179CBE93E8E59D4 /* Pods-Financo-FinancoTests-frameworks.sh */,
+				0D80FCFEA41CB675DB7B9D9C4BDE6147 /* Pods-Financo-FinancoTests-Info.plist */,
+				0969E0794A362948E4CED26D477CB761 /* Pods-Financo-FinancoTests-umbrella.h */,
+				0EA2FA8A66439B6F227C49481C20FF1D /* Pods-Financo-FinancoTests.debug.xcconfig */,
+				757B3E3A96D526EEF8E84A5BB9D3C088 /* Pods-Financo-FinancoTests.release.xcconfig */,
+			);
+			name = "Pods-Financo-FinancoTests";
+			path = "Target Support Files/Pods-Financo-FinancoTests";
+			sourceTree = "<group>";
+		};
 		04BED512A594D1AC12792E24FC47F430 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -1774,18 +1910,18 @@
 			name = AppDelegateSwizzler;
 			sourceTree = "<group>";
 		};
-		1440EC76D96408653E6F0E9758BBA4DE /* Pods-Financo */ = {
+		174E5F469199E8555B9FF51EAAD916AE /* Pods-Financo */ = {
 			isa = PBXGroup;
 			children = (
-				B5CAC63CF75B96FE7FBCBB6957B50105 /* Pods-Financo.modulemap */,
-				C2D8A0CCD61918C775CC1CEBCAA3893F /* Pods-Financo-acknowledgements.markdown */,
-				DC6FA5A6B8409728BB11E134856C7582 /* Pods-Financo-acknowledgements.plist */,
-				E0E263158B2170230967265CB1DC2CEE /* Pods-Financo-dummy.m */,
-				3C1F8D583479F54BBBDD46CFACA29649 /* Pods-Financo-frameworks.sh */,
-				D9C98766E943BE93FE193A14456D0D45 /* Pods-Financo-Info.plist */,
-				19683750BB1918967CBC9F298B5874C4 /* Pods-Financo-umbrella.h */,
-				FDCC35F8CE69CF695BFED70FE8292ED3 /* Pods-Financo.debug.xcconfig */,
-				820B0B7DD08EBFD14701CE472E25FA90 /* Pods-Financo.release.xcconfig */,
+				EC3C8F1F0A24659E2E93FF65FE32F444 /* Pods-Financo.modulemap */,
+				2173128BA0E2D5A7C965E11F43B9E652 /* Pods-Financo-acknowledgements.markdown */,
+				E873565FBD31D118601CE9BEAE48491E /* Pods-Financo-acknowledgements.plist */,
+				782035C5975E7865B07E535F079D8054 /* Pods-Financo-dummy.m */,
+				27AB11A52FC05DBC6C315497AAF309D9 /* Pods-Financo-frameworks.sh */,
+				69C761E8024870A81E13E2FA76F558CB /* Pods-Financo-Info.plist */,
+				AB1539C04247D67CBC827157C69C8760 /* Pods-Financo-umbrella.h */,
+				639C9121C92A1A34DA9908034512C0B5 /* Pods-Financo.debug.xcconfig */,
+				17143BCACC022DCCDF5B7E8367E999E7 /* Pods-Financo.release.xcconfig */,
 			);
 			name = "Pods-Financo";
 			path = "Target Support Files/Pods-Financo";
@@ -1898,24 +2034,6 @@
 			path = GoogleAppMeasurement;
 			sourceTree = "<group>";
 		};
-		571FC34BBFC6E99EC8BD14F263AB5664 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				A1C1B977ED8804E8AEEC884E7359EE58 /* Charts.framework */,
-				86C4A2D817E6CFFF31BF75161625FD5D /* DynamicBlurView.framework */,
-				3347A1AB6546F0A3977529B8F199DC41 /* FBLPromises.framework */,
-				B43874C6CBB50E7134FBEC24BABFE14F /* GoogleUtilities.framework */,
-				51BA97E8B5085EFFB47BC9C0B785CEA7 /* Lottie.framework */,
-				06FC5C9CF96D60C50FCD47D339C91951 /* nanopb.framework */,
-				C89BDE142851A8695DC29699B17845FD /* Pods_Financo.framework */,
-				51305B2D9D8DA36D89CC277D729083D2 /* pop.framework */,
-				34FB964502259D0FF233CE71CFDD2A71 /* PopupDialog.framework */,
-				921BE4A82C4A7A5C72A0C6F8B8FEF200 /* Realm.framework */,
-				437919EE08EC6BFCCBAC3BD346309742 /* RealmSwift.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		5F0299B507675B72D6D82896040AC4A9 /* nanopb */ = {
 			isa = PBXGroup;
 			children = (
@@ -1932,6 +2050,16 @@
 			);
 			name = nanopb;
 			path = nanopb;
+			sourceTree = "<group>";
+		};
+		6614396514053DBB4B5B1A5E32416EBB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				174E5F469199E8555B9FF51EAAD916AE /* Pods-Financo */,
+				0064A85CC752422F8816BAED692EFC58 /* Pods-Financo-FinancoTests */,
+				C2518F1979C6EF537AD1D7F6C6205031 /* Pods-FinancoUITests */,
+			);
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		69E9CC21E427282A120179C3B5EFD440 /* pop */ = {
@@ -2401,6 +2529,19 @@
 			path = "../Target Support Files/Google-Mobile-Ads-SDK";
 			sourceTree = "<group>";
 		};
+		C2518F1979C6EF537AD1D7F6C6205031 /* Pods-FinancoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4691A0DC7C98A2586103FB301928AB75 /* Pods-FinancoUITests-acknowledgements.markdown */,
+				5EBE53BB3590BB0D66C3D38745B8D0CB /* Pods-FinancoUITests-acknowledgements.plist */,
+				3C2CD401F84054820CA70752015CE680 /* Pods-FinancoUITests-dummy.m */,
+				C928809533C4D55EE7E562469213F61C /* Pods-FinancoUITests.debug.xcconfig */,
+				AD8E649DD88CBCC6A09A0F92D04D4582 /* Pods-FinancoUITests.release.xcconfig */,
+			);
+			name = "Pods-FinancoUITests";
+			path = "Target Support Files/Pods-FinancoUITests";
+			sourceTree = "<group>";
+		};
 		C68BDF7B8958BF0470CF367A3457A055 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -2557,8 +2698,8 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				DCF1BBD2016ECE08C2DE34490A90345A /* Frameworks */,
 				E3E1FFFE005D4480D2BE80013F045FA0 /* Pods */,
-				571FC34BBFC6E99EC8BD14F263AB5664 /* Products */,
-				DED41D53601E57983E54030A7D967544 /* Targets Support Files */,
+				EAFDEBA9AABB2D1C0CBDD7BE3C46A8CE /* Products */,
+				6614396514053DBB4B5B1A5E32416EBB /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -2642,14 +2783,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DED41D53601E57983E54030A7D967544 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				1440EC76D96408653E6F0E9758BBA4DE /* Pods-Financo */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
 		E3E1FFFE005D4480D2BE80013F045FA0 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -2714,6 +2847,26 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Charts";
+			sourceTree = "<group>";
+		};
+		EAFDEBA9AABB2D1C0CBDD7BE3C46A8CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1C1B977ED8804E8AEEC884E7359EE58 /* Charts.framework */,
+				86C4A2D817E6CFFF31BF75161625FD5D /* DynamicBlurView.framework */,
+				3347A1AB6546F0A3977529B8F199DC41 /* FBLPromises.framework */,
+				B43874C6CBB50E7134FBEC24BABFE14F /* GoogleUtilities.framework */,
+				0ADE611789D649518B76A71673552E5B /* libPods-FinancoUITests.a */,
+				51BA97E8B5085EFFB47BC9C0B785CEA7 /* Lottie.framework */,
+				06FC5C9CF96D60C50FCD47D339C91951 /* nanopb.framework */,
+				C89BDE142851A8695DC29699B17845FD /* Pods_Financo.framework */,
+				53C16664C22BA36763D33F4542D4EC75 /* Pods_Financo_FinancoTests.framework */,
+				51305B2D9D8DA36D89CC277D729083D2 /* pop.framework */,
+				34FB964502259D0FF233CE71CFDD2A71 /* PopupDialog.framework */,
+				921BE4A82C4A7A5C72A0C6F8B8FEF200 /* Realm.framework */,
+				437919EE08EC6BFCCBAC3BD346309742 /* RealmSwift.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		ED948A045EC69C13DAE6F2D9AE13679E /* DynamicBlurView */ = {
@@ -2905,6 +3058,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9A15D23EB5B423BE7DA9E661721719C3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83CC859B440A340D2F885985A3BD4CF1 /* Pods-Financo-FinancoTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A087331736A6DF1F7677EF3D806FFF02 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -2997,6 +3158,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FC462451078BF4A853DDDD6494A74500 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -3034,6 +3202,36 @@
 			name = "lottie-ios";
 			productName = "lottie-ios";
 			productReference = 51BA97E8B5085EFFB47BC9C0B785CEA7 /* Lottie.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		25640495596D817C9E39EEF35C6DAC6A /* Pods-Financo-FinancoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B2F7FAA45853D211E8C0AAB4C15A614 /* Build configuration list for PBXNativeTarget "Pods-Financo-FinancoTests" */;
+			buildPhases = (
+				9A15D23EB5B423BE7DA9E661721719C3 /* Headers */,
+				7D69CD88648CF9ADD6169E6C5977248F /* Sources */,
+				68598D0DBF28443FC1F4F8FD20D9DFC6 /* Frameworks */,
+				2C94C2E92E6106A0350BAB17B8A4EE4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC958D5888EC7FEE0324F996698C7E80 /* PBXTargetDependency */,
+				E3EEB91EBF6163ECD0796837DF465C32 /* PBXTargetDependency */,
+				14191C2B7A70F5C040C2691BBB14A17F /* PBXTargetDependency */,
+				27A8DF9CBB49AB38F998FFA8BCF5F067 /* PBXTargetDependency */,
+				701887DEB6F2D8F4C553743E63A6EA18 /* PBXTargetDependency */,
+				0329E2C1F9CFE766321CD7EC9EB3F6FE /* PBXTargetDependency */,
+				B468799862FC32C29C50BF014D3F91CF /* PBXTargetDependency */,
+				D463C35377F5A80BDDB9A6DBD282E330 /* PBXTargetDependency */,
+				C5BAA9E4733F1AC7891091B4E5A52166 /* PBXTargetDependency */,
+				2C9A954C38C74F1134953EA8B97ABFD2 /* PBXTargetDependency */,
+				19AB1984B498E7B07D60DC487AB79009 /* PBXTargetDependency */,
+				C9452F63EEEF64A9DB1CAD2DDAB7266C /* PBXTargetDependency */,
+			);
+			name = "Pods-Financo-FinancoTests";
+			productName = "Pods-Financo-FinancoTests";
+			productReference = 53C16664C22BA36763D33F4542D4EC75 /* Pods_Financo_FinancoTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		2BBF7206D7FAC92C82A042A99C4A98F8 /* PromisesObjC */ = {
@@ -3217,6 +3415,23 @@
 			productReference = 06FC5C9CF96D60C50FCD47D339C91951 /* nanopb.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		F617F9230DDFDA20EE7D735D84A7D8E9 /* Pods-FinancoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02950155773B74170D68CE58D6E477A3 /* Build configuration list for PBXNativeTarget "Pods-FinancoUITests" */;
+			buildPhases = (
+				FC462451078BF4A853DDDD6494A74500 /* Headers */,
+				AC225B5905491B9260D63D2BC030D016 /* Sources */,
+				AB6C61468C2EFF45AEB0C95B345FCA6C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-FinancoUITests";
+			productName = "Pods-FinancoUITests";
+			productReference = 0ADE611789D649518B76A71673552E5B /* libPods-FinancoUITests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -3235,7 +3450,7 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 571FC34BBFC6E99EC8BD14F263AB5664 /* Products */;
+			productRefGroup = EAFDEBA9AABB2D1C0CBDD7BE3C46A8CE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -3247,6 +3462,8 @@
 				0B967D7F8561D42493EE289EC8D450D1 /* lottie-ios */,
 				D2B5E7DCCBBFB32341D857D01211A1A3 /* nanopb */,
 				B92D3E2D40BAA0389E0C66796E233A65 /* Pods-Financo */,
+				25640495596D817C9E39EEF35C6DAC6A /* Pods-Financo-FinancoTests */,
+				F617F9230DDFDA20EE7D735D84A7D8E9 /* Pods-FinancoUITests */,
 				0483D7F620C992E5C4BD62A7266EABB4 /* pop */,
 				6E71929B582F8CD57B3DC1FD6560F047 /* PopupDialog */,
 				2BBF7206D7FAC92C82A042A99C4A98F8 /* PromisesObjC */,
@@ -3258,6 +3475,13 @@
 
 /* Begin PBXResourcesBuildPhase section */
 		133C3F7198BB1C43252A333536DEBF8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C94C2E92E6106A0350BAB17B8A4EE4D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -3659,6 +3883,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7D69CD88648CF9ADD6169E6C5977248F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABF7B8D9AAA392F9A7F6B3C56A5992D2 /* Pods-Financo-FinancoTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC225B5905491B9260D63D2BC030D016 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29928E4EA52B80C83FFBCEC594F56273 /* Pods-FinancoUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C7E9A6089A744047933364F0C41DA31D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -3872,6 +4112,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		0329E2C1F9CFE766321CD7EC9EB3F6FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PopupDialog;
+			target = 6E71929B582F8CD57B3DC1FD6560F047 /* PopupDialog */;
+			targetProxy = D1A57C4C06A1A7F339CEF540A3988D14 /* PBXContainerItemProxy */;
+		};
 		04A7F3E7082D8DA8774EF5DCAEEE2176 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = RealmSwift;
@@ -3883,6 +4129,30 @@
 			name = PromisesObjC;
 			target = 2BBF7206D7FAC92C82A042A99C4A98F8 /* PromisesObjC */;
 			targetProxy = 417CCB8F2C627B5CD557B147794C8164 /* PBXContainerItemProxy */;
+		};
+		14191C2B7A70F5C040C2691BBB14A17F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Google-Mobile-Ads-SDK";
+			target = FEA3B3A570634836C0457F3D7CEF1699 /* Google-Mobile-Ads-SDK */;
+			targetProxy = FD8BD5FC80196D3939484E50B04B3F27 /* PBXContainerItemProxy */;
+		};
+		19AB1984B498E7B07D60DC487AB79009 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = nanopb;
+			target = D2B5E7DCCBBFB32341D857D01211A1A3 /* nanopb */;
+			targetProxy = 523708FC0B9D5CC8B97E0A0C73C680BF /* PBXContainerItemProxy */;
+		};
+		27A8DF9CBB49AB38F998FFA8BCF5F067 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleAppMeasurement;
+			target = B53D977A951AFC38B21751B706C1DF83 /* GoogleAppMeasurement */;
+			targetProxy = 6754331702C15C0F58B5C1DA5F42BDEB /* PBXContainerItemProxy */;
+		};
+		2C9A954C38C74F1134953EA8B97ABFD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "lottie-ios";
+			target = 0B967D7F8561D42493EE289EC8D450D1 /* lottie-ios */;
+			targetProxy = B3CBFD7B38AB85B8D0D15560F7F6AD55 /* PBXContainerItemProxy */;
 		};
 		3C0CCA8BB6DA5AEA80D0B9CBCA538000 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -3901,6 +4171,12 @@
 			name = Realm;
 			target = 68494F30B4A13F8E5E88BCCAEC25B0A4 /* Realm */;
 			targetProxy = 8A746E659BFEA91898B087ADF6A8E4B5 /* PBXContainerItemProxy */;
+		};
+		701887DEB6F2D8F4C553743E63A6EA18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleUtilities;
+			target = 8D7F5D5DD528D21A72DC87ADA5B12E2D /* GoogleUtilities */;
+			targetProxy = 3358390617F88DF04B56CCE38E46B250 /* PBXContainerItemProxy */;
 		};
 		77154C8D022053A3DBB9D79E69C0EA00 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -3944,6 +4220,12 @@
 			target = 0483D7F620C992E5C4BD62A7266EABB4 /* pop */;
 			targetProxy = CBFD5389DF2F51DA1C19EFBE0F598C55 /* PBXContainerItemProxy */;
 		};
+		B468799862FC32C29C50BF014D3F91CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PromisesObjC;
+			target = 2BBF7206D7FAC92C82A042A99C4A98F8 /* PromisesObjC */;
+			targetProxy = 049AB6BDC9DD11319B3CC0717A46DA03 /* PBXContainerItemProxy */;
+		};
 		C0A5DF47A32623C4CE8357825AC3E2B7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = GoogleUtilities;
@@ -3956,11 +4238,23 @@
 			target = D2B5E7DCCBBFB32341D857D01211A1A3 /* nanopb */;
 			targetProxy = 16729E58E63DF92964155C94216474F1 /* PBXContainerItemProxy */;
 		};
+		C5BAA9E4733F1AC7891091B4E5A52166 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RealmSwift;
+			target = 782725687624F8665247B84AB581BEB1 /* RealmSwift */;
+			targetProxy = 53A056AA4CF123F789F8618E04DE0AE7 /* PBXContainerItemProxy */;
+		};
 		C7117B232621426C1A0B9FA8252F999E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Charts;
 			target = BF03B0B2B8B052092CB5F90CC5FB3757 /* Charts */;
 			targetProxy = 1477AB9DF95C5599B724794543548AF3 /* PBXContainerItemProxy */;
+		};
+		C9452F63EEEF64A9DB1CAD2DDAB7266C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = pop;
+			target = 0483D7F620C992E5C4BD62A7266EABB4 /* pop */;
+			targetProxy = 5730DFA3975D761DD4DE65818A5B5D88 /* PBXContainerItemProxy */;
 		};
 		C9B67B7AD978666EAB8B538DA6646A3B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -3968,11 +4262,29 @@
 			target = B53D977A951AFC38B21751B706C1DF83 /* GoogleAppMeasurement */;
 			targetProxy = 00C747A125DB0A6E88D0C2923AB38452 /* PBXContainerItemProxy */;
 		};
+		CC958D5888EC7FEE0324F996698C7E80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Charts;
+			target = BF03B0B2B8B052092CB5F90CC5FB3757 /* Charts */;
+			targetProxy = 670BA5362950F5C915591FCDED1B90B9 /* PBXContainerItemProxy */;
+		};
+		D463C35377F5A80BDDB9A6DBD282E330 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Realm;
+			target = 68494F30B4A13F8E5E88BCCAEC25B0A4 /* Realm */;
+			targetProxy = DC5757CE3F8E52B56AD1A439C261CE91 /* PBXContainerItemProxy */;
+		};
 		DD61449376457E003B6EDBB84E3A5FC6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = nanopb;
 			target = D2B5E7DCCBBFB32341D857D01211A1A3 /* nanopb */;
 			targetProxy = BBB170488659A159B449AB60C31B69DC /* PBXContainerItemProxy */;
+		};
+		E3EEB91EBF6163ECD0796837DF465C32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DynamicBlurView;
+			target = 7D914FA2F03C860D5133BA2DB87C594A /* DynamicBlurView */;
+			targetProxy = FDCB48581C196F04EB32C22B0D4061EA /* PBXContainerItemProxy */;
 		};
 		FFD5D92930868D867B191EF21D425025 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -4141,6 +4453,44 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		1218C3ADAC1079F42D168FCE519759B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EA2FA8A66439B6F227C49481C20FF1D /* Pods-Financo-FinancoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Financo-FinancoTests/Pods-Financo-FinancoTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Financo-FinancoTests/Pods-Financo-FinancoTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		131356BE54884448CA49C07BEDF4BB2A /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -4314,7 +4664,7 @@
 		};
 		3EA7AE4AD66D096081F82BCFC7A02838 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FDCC35F8CE69CF695BFED70FE8292ED3 /* Pods-Financo.debug.xcconfig */;
+			baseConfigurationReference = 639C9121C92A1A34DA9908034512C0B5 /* Pods-Financo.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -4647,6 +4997,67 @@
 			};
 			name = Release;
 		};
+		B733D30C7511E5A6EC82276B67BEB296 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C928809533C4D55EE7E562469213F61C /* Pods-FinancoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BDC39FF02842DC71B08A52A698F33973 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 757B3E3A96D526EEF8E84A5BB9D3C088 /* Pods-Financo-FinancoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Financo-FinancoTests/Pods-Financo-FinancoTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Financo-FinancoTests/Pods-Financo-FinancoTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		C0E2F233164CD131AA0330A3E26BAECB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3051967BDD7048ECA15607773DA01333 /* Realm.xcconfig */;
@@ -4919,9 +5330,32 @@
 			};
 			name = Release;
 		};
+		FC13A61934AB3F46D3554D01DC6A89E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD8E649DD88CBCC6A09A0F92D04D4582 /* Pods-FinancoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		FE5183FA886D7CA63E78A72345A300FC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 820B0B7DD08EBFD14701CE472E25FA90 /* Pods-Financo.release.xcconfig */;
+			baseConfigurationReference = 17143BCACC022DCCDF5B7E8367E999E7 /* Pods-Financo.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -4961,6 +5395,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		02950155773B74170D68CE58D6E477A3 /* Build configuration list for PBXNativeTarget "Pods-FinancoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B733D30C7511E5A6EC82276B67BEB296 /* Debug */,
+				FC13A61934AB3F46D3554D01DC6A89E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		24AD58548498431C008D4ED382E0D7A0 /* Build configuration list for PBXNativeTarget "GoogleUtilities" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -4984,6 +5427,15 @@
 			buildConfigurations = (
 				B5C067FD101847A6ED1A5F419E0F0EC2 /* Debug */,
 				2AAB0E6922F1B4B5B55B15F2250A8E3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B2F7FAA45853D211E8C0AAB4C15A614 /* Build configuration list for PBXNativeTarget "Pods-Financo-FinancoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1218C3ADAC1079F42D168FCE519759B3 /* Debug */,
+				BDC39FF02842DC71B08A52A698F33973 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -37,7 +37,7 @@ PODS:
   - pop (1.0.12)
   - PopupDialog (0.9.2):
     - DynamicBlurView (~> 3.0.1)
-  - PromisesObjC (1.2.8)
+  - PromisesObjC (1.2.9)
   - Realm (5.0.3):
     - Realm/Headers (= 5.0.3)
   - Realm/Headers (5.0.3)
@@ -77,10 +77,10 @@ SPEC CHECKSUMS:
   nanopb: c43f40fadfe79e8b8db116583945847910cbabc9
   pop: d582054913807fd11fd50bfe6a539d91c7e1a55a
   PopupDialog: f4bb461bf70ff422be0b56656566424ee9273080
-  PromisesObjC: c119f3cd559f50b7ae681fa59dc1acd19173b7e6
+  PromisesObjC: b48e0338dbbac2207e611750777895f7a5811b75
   Realm: bfca1699b61b0b17c3a69ae0e648314eae91fbdb
   RealmSwift: 493c9f089cd3893b3959007973c0e4f640906ba0
 
-PODFILE CHECKSUM: 66b14c39eea5812266f560439ba929e79124caef
+PODFILE CHECKSUM: d58aa35b74f49354e3de2605c1547277074558d3
 
 COCOAPODS: 1.8.4
