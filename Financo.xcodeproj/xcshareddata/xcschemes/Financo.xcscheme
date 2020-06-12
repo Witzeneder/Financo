@@ -17,7 +17,7 @@
                BlueprintIdentifier = "E4696F3021306ACF002378D2"
                BuildableName = "Financo.app"
                BlueprintName = "Financo"
-               ReferencedContainer = "container:Financer.xcodeproj">
+               ReferencedContainer = "container:Financo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -56,7 +56,7 @@
             BlueprintIdentifier = "E4696F3021306ACF002378D2"
             BuildableName = "Financo.app"
             BlueprintName = "Financo"
-            ReferencedContainer = "container:Financer.xcodeproj">
+            ReferencedContainer = "container:Financo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </LaunchAction>
@@ -73,7 +73,7 @@
             BlueprintIdentifier = "E4696F3021306ACF002378D2"
             BuildableName = "Financo.app"
             BlueprintName = "Financo"
-            ReferencedContainer = "container:Financer.xcodeproj">
+            ReferencedContainer = "container:Financo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
