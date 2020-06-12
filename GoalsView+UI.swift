@@ -110,7 +110,6 @@ extension GoalsView {
         setupCollectionView()
     }
     
-    
     override func viewDidLayoutSubviews() {
         setupSegmentedControl()
     }
