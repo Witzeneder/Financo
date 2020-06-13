@@ -55,6 +55,5 @@ class FinancoTestsEntries: XCTestCase {
             XCTAssertTrue(sortedEntries[i].month == i+1)
             XCTAssertTrue(sortedEntries[i].year == 2020)
         }
-        
     }
 }
