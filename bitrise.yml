@@ -1,0 +1,120 @@
+---
+format_version: '8'
+default_step_lib_source: https://github.com/bitrise-io/bitrise-steplib.git
+project_type: ios
+workflows:
+  debug:
+    before_run:
+    - _begin
+    - _run-linters
+    - _prepare-build
+    - _run-tests
+    after_run:
+    - _end
+    steps:
+    - deploy-to-bitrise-io@1: {}
+  testing:
+    steps:
+    - set-xcode-build-number@1:
+        inputs:
+        - plist_path: "$BITRISE_SOURCE_DIR/Financo/Info.plist"
+    - xcode-archive@2:
+        inputs:
+        - project_path: "$BITRISE_PROJECT_PATH"
+        - scheme: "$BITRISE_SCHEME"
+        - export_method: "$BITRISE_EXPORT_METHOD"
+    - deploy-to-bitrise-io@1: {}
+    - create-install-page-qr-code@1: {}
+    - slack@3:
+        inputs:
+        - webhook_url: "$APPNAME_SLACK_WEBHOOK"
+        - channel: "$APPNAME_SLACK_CHANNEL"
+        - image_url: "$BITRISE_PUBLIC_INSTALL_PAGE_QR_CODE_IMAGE_URL"
+    before_run:
+    - _begin
+    - _prepare-build
+    after_run:
+    - _end
+  _begin:
+    steps:
+    - activate-ssh-key@4:
+        run_if: '{{getenv "SSH_RSA_PRIVATE_KEY" | ne ""}}'
+    - git-clone@4: {}
+    - cache-pull@2: {}
+    description: Does any preparation work needed in every workflow.
+  _prepare-build:
+    steps:
+    - cocoapods-install@1: {}
+    - ios-auto-provision@1:
+        inputs:
+        - team_id: 2J5BSC7K62
+    description: Installs all dependencies like tools & frameworks.
+  _run-tests:
+    description: Runs unit & UI tests and fails if any of them fail.
+    steps:
+    - xcode-test@2: {}
+  _end:
+    steps:
+    - cache-push@2: {}
+    description: Does any cleaning up work needed in every workflow.
+  _run-linters:
+    description: Runs any linters to enforce code style & prevent issues.
+    steps:
+    - swiftlint-extended@1:
+        inputs:
+        - linting_path: "$BITRISE_SOURCE_DIR"
+  staging:
+    before_run:
+    - _begin
+    - _prepare-build
+    after_run:
+    - _end
+    steps:
+    - set-xcode-build-number@1:
+        inputs:
+        - plist_path: "$BITRISE_SOURCE_DIR/Financo/Info.plist"
+        - build_short_version_string: "$BITRISE_GIT_TAG"
+    - xcode-archive@2:
+        inputs:
+        - export_method: development
+    - deploy-to-bitrise-io@1: {}
+    - create-install-page-qr-code@1: {}
+    - slack@3:
+        inputs:
+        - webhook_url: "$APPNAME_SLACK_WEBHOOK"
+        - channel: "$APPNAME_SLACK_CHANNEL"
+        - image_url: "$BITRISE_PUBLIC_INSTALL_PAGE_QR_CODE_IMAGE_URL"
+  release:
+    description: Upload a new Version to iTunes Connect for Review
+    before_run:
+    - _begin
+    after_run:
+    - _end
+app:
+  envs:
+  - opts:
+      is_expand: false
+    BITRISE_PROJECT_PATH: Financo.xcworkspace
+  - opts:
+      is_expand: false
+    BITRISE_SCHEME: Financo
+  - opts:
+      is_expand: false
+    BITRISE_EXPORT_METHOD: development
+  - opts:
+      is_expand: false
+    APPNAME_SLACK_CHANNEL: "#financo_entwicklung"
+  - opts:
+      is_expand: false
+    BITRISE_CACHE_DIR: " ./Pods -> ./Podfile.lock"
+  - opts:
+      is_expand: false
+    INFO_PLIST_PATH: "$BITRISE_SOURCE_DIR/Financo/Info.plist"
+trigger_map:
+- push_branch: feature/*
+  workflow: debug
+- pull_request_source_branch: feature/*
+  pull_request_target_branch: develop
+  workflow: testing
+- tag: "*.*.*"
+  workflow: staging
